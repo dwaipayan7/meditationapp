@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditationapp/feature/presentation/wigets/feeling_button.dart';
+import 'package:meditationapp/feature/presentation/wigets/task_card.dart';
 
 import '../../../core/theme.dart';
 
@@ -20,7 +21,7 @@ class MeditationScreen extends StatelessWidget {
           SizedBox(width: 16,)
         ],
       ),
-      // backgroundColor: Colors.red,
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
           child: Column(
             children: [
@@ -48,6 +49,26 @@ class MeditationScreen extends StatelessWidget {
                 color: Colors.black, fontSize: 18,
                 fontWeight: FontWeight.w500
               ),),
+              SizedBox(height: 16,),
+              TaskCard(
+                  title: 'Morning',
+                  description: "Let's open up to the thing that matters among the module",
+                  color: DefaultColors.task1
+              ),
+
+              SizedBox(height: 16,),
+              TaskCard(
+                  title: 'Morning',
+                  description: "Let's open up to the thing that matters among the module",
+                  color: DefaultColors.task2
+              ),
+
+              SizedBox(height: 16,),
+              TaskCard(
+                  title: 'Morning',
+                  description: "Let's open up to the thing that matters among the module",
+                  color: DefaultColors.task3
+              ),
 
             ],
           ),
