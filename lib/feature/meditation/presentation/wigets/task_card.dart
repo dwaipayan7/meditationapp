@@ -30,7 +30,9 @@ class TaskCard extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: Theme.of(context).textTheme.labelLarge,
+                  style: TextStyle(
+                    fontSize: 17, fontWeight: FontWeight.bold
+                  )
                 ),
                 const SizedBox(height: 8),
                 Row(

@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meditationapp/feature/presentation/bottom_Nav_bar/bloc/navigation_bloc.dart';
-import 'package:meditationapp/feature/presentation/bottom_Nav_bar/widgets/bottom_nav_bar.dart';
-import 'package:meditationapp/feature/presentation/pages/meditation_screen.dart';
+
+import '../../../music/presentation/pages/music_player.dart';
+import '../bottom_Nav_bar/bloc/navigation_bloc.dart';
+import '../bottom_Nav_bar/widgets/bottom_nav_bar.dart';
+import '../pages/meditation_screen.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
   final List<Widget> pages = [
     const MeditationScreen(),
-    Scaffold(body: Center(child: Text('Songs Screen'))),
+   const MusicPlayerScreen()
   ];
 
   BottomNavigationBarItem createBottomNavItem(

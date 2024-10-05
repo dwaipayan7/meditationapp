@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meditationapp/feature/presentation/HomePage/home_page.dart';
-import 'feature/presentation/bottom_Nav_bar/bloc/navigation_bloc.dart';
-import 'feature/presentation/onboarding/onboarding.dart';
+
+import 'feature/meditation/presentation/HomePage/home_page.dart';
+import 'feature/meditation/presentation/bottom_Nav_bar/bloc/navigation_bloc.dart';
 
 void main() {
   runApp(const MyApp());

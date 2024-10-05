@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:meditationapp/feature/presentation/pages/meditation_screen.dart';
+
+import '../pages/meditation_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:meditationapp/feature/presentation/wigets/feeling_button.dart';
-import 'package:meditationapp/feature/presentation/wigets/task_card.dart';
 
-import '../../../core/theme.dart';
+import '../../../../core/theme.dart';
+
+import '../wigets/feeling_button.dart';
+import '../wigets/task_card.dart';
 
 class MeditationScreen extends StatelessWidget {
   const MeditationScreen({super.key});
@@ -58,14 +59,14 @@ class MeditationScreen extends StatelessWidget {
 
               SizedBox(height: 16,),
               TaskCard(
-                  title: 'Morning',
+                  title: 'Noon',
                   description: "Let's open up to the thing that matters among the module",
                   color: DefaultColors.task2
               ),
 
               SizedBox(height: 16,),
               TaskCard(
-                  title: 'Morning',
+                  title: 'Evening',
                   description: "Let's open up to the thing that matters among the module",
                   color: DefaultColors.task3
               ),
