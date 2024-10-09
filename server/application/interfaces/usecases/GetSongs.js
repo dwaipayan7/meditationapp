@@ -1,5 +1,5 @@
 const UseCaseInterface = require("../UseCaseInterface");
-const Song = require('../../../domain/entities/Song')
+const Song = require('../../../domain/entities/Song').default
 
 class GetSongs extends UseCaseInterface{
     async execute(){

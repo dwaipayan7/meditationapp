@@ -8,4 +8,4 @@ class QuotesRepository{
     }
 }
 
-module.exports = QuotesRepository;
+export default QuotesRepository;

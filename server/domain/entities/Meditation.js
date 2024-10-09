@@ -4,4 +4,4 @@ class Meditation{
     }
 }
 
-module.exports = Meditation;
+export default Meditation;
